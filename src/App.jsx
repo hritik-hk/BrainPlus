@@ -1,14 +1,14 @@
 import Navbar from "./component/Navbar/Navbar"
+import Playground from "./component/Navbar/Playground"
 
 
 
 function App(){
   return(
-    <>
+    <div className="bg-[#111111]  text-white w-full">
     <Navbar />
-    <h1>BRAIN++</h1>
-    <p>Lets Gooo !!!</p>
-    </>
+    <Playground />
+    </div>
   )
 }
 
