@@ -8,7 +8,7 @@ export default function Navbar(){
             <span className="text-lg font-extrabold">MINDCRAFT</span>
         </div>
 
-        <div className="hidden md:flex justify-around w-1/4">
+        <div className="hidden md:flex justify-around items-center w-1/4">
        <div className=" hidden md:block bg-[#E55807] rounded-2xl w-32 h-fit p-3 cursor-pointer ">
             DASHBOARD
         </div>
