@@ -2,8 +2,8 @@ export default function Navbar(){
 
     return (
         <>
-         <nav className="p-3 flex justify-between md:justify-around text-base tracking-wide font-semibold">
-        <div className="w-96">
+         <nav className="p-2 flex justify-between md:justify-around text-base tracking-wide font-semibold">
+        <div className="w-64">
             <img className="inline md:block rounded-md w-12 mr-2 md:w-20" src="./src/assets/logo.jpg" alt="logo"/>
             <span className="text-lg font-extrabold">MINDCRAFT</span>
         </div>
