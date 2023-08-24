@@ -1,0 +1,27 @@
+@keyframes flick {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  .text-cursor {
+    position: absolute;
+    font-size: 120%;
+    font-weight:400;
+    margin: -6px -4px;
+    animation: flick 0.8s;
+    animation-iteration-count: infinite;
+  }
+
+  .input-area .right {
+    background-color: rgb(94, 221, 94);
+  }
+  
+  .input-area .wrong {
+    background-color: rgb(255, 97, 97);
+  }
