@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import svgData from "../../assets/icons";
+import svgData from "../../assets/gamesData";
 import "../../assets/css/WorkingMemoryTest.css"
 
 const WorkingMemoryTest = () => {
