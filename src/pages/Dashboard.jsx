@@ -1,4 +1,3 @@
-import Navbar from "../component/Navbar";
 import {AiFillPlayCircle} from "react-icons/ai"
 import {ImStatsDots} from 'react-icons/im'
 
@@ -6,7 +5,6 @@ import {ImStatsDots} from 'react-icons/im'
 export default function Dashboard() {
   return (
     <div className="bg-[#111111]  text-white w-full">
-      <Navbar />
       <div className="flex flex-col  justify-center items-center">
         <div className="bg-[#262A56] mt-5 mb-2 h-[270px] w-2/3 p-7 rounded-lg shadow-sm flex flex-col justify-evenly items-start">
           <div>

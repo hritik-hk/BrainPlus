@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import svgData from "../../assets/icons";
+import {gameObj} from "../../assets/gamesData";
 
 const SequenceSymphonyTest = () => {
   const color='#6d59bc';
@@ -102,7 +102,7 @@ const SequenceSymphonyTest = () => {
 
       {status === 'start' && (
        <div className='flex flex-col items-center' onClick={start}>
-          <div className='h-[200px]' dangerouslySetInnerHTML={{ __html: svgData.reactionTimeTest }} />
+          <div className='h-[200px]' dangerouslySetInnerHTML={{ __html: gameObj.SequenceSymphonyTest.svg }} />
           <p className=" py-5 text-7xl font-extrabold text-white ">Sequence Memory Test</p>
           <p className="m-1 text-3xl font-medium text-white">Memorize the pattern</p>
           <p className="text-xl font-medium text-white">Click Anywhere to Start</p>

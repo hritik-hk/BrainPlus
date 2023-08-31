@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-import svgData from "../../assets/icons";
+import {gameObj} from "../../assets/gamesData";
 //#6d59bc-purple , #7A9D54-green
 
 function UltraInstinctTest() {
@@ -87,7 +87,7 @@ function UltraInstinctTest() {
       style={{ backgroundColor: color }}
      >
        <div className='flex flex-col items-center'>
-          <div className='h-[200px]' dangerouslySetInnerHTML={{ __html: svgData.reactionTimeTest }} />
+          <div className='h-[200px]' dangerouslySetInnerHTML={{ __html: gameObj.UltraInstinctTest.svg }} />
           <p className=" py-5 text-7xl font-extrabold text-white ">Reaction Time Test</p>
           <p className="text-3xl font-semibold text-white">Click as fast as your can, when the grey box turns green!</p>
           <p className="text-2xl font-medium text-white">Click Anywhere to Start</p>

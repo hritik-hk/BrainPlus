@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import svgData from "../../assets/gamesData";
+import {gameObj} from "../../assets/gamesData";
 import "../../assets/css/WorkingMemoryTest.css"
 
 const WorkingMemoryTest = () => {
@@ -118,7 +118,7 @@ const WorkingMemoryTest = () => {
       style={{ backgroundColor: color }}>
       {status === 'start' && (
         <>
-         <div className='h-[200px]' dangerouslySetInnerHTML={{ __html: svgData.reactionTimeTest }} />
+         <div className='h-[200px]' dangerouslySetInnerHTML={{ __html: gameObj.WorkingMemoryTest.svg }} />
           <h2 className="text-7xl">Test your working memory.</h2>
           <div className="flex flex-col justify-around items-center">
           <p className="text-2xl font-[300]">Remember the squares and then click the squares in order according to their numbers, when numbers disappear</p>

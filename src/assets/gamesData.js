@@ -206,6 +206,7 @@ const gameArr = [
    </svg>`,
     title: "Sequence Symphony",
     description: "Remember and replicate a sequence  of flashing squares!",
+    path:'/tests/sequence',
   },
   {
     svg:
@@ -268,7 +269,8 @@ const gameArr = [
  </g>
  </svg>`,
  title:"Working Memory",
- description:"Test your brain's working memory"
+ description:"Test your brain's working memory",
+ path:'/tests/working-memory',
   },
   {
     svg:
@@ -292,7 +294,8 @@ const gameArr = [
     ></path>
   </svg>`,
   title:"Typing Test",
-  description:"How many words per minute can you type?"
+  description:"How many words per minute can you type?",
+  path:'/tests/typing',
   },
   {
     svg:
@@ -312,7 +315,8 @@ const gameArr = [
     ></path>
   </svg>`,
   title:"Digit Playback",
-  description:"how many digits can you remember?"
+  description:"how many digits can you remember?",
+  path:'/tests/digit-playback',
   },
   {
     svg: `
@@ -331,6 +335,7 @@ const gameArr = [
       </svg>`,
     title: "Ultra Instict",
     description: "Test your visual instincts!",
+    path:'/tests/ultra-instinct',
   }
 ];
 

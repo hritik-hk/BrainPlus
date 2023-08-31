@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import svgData from "../../assets/icons";
+import {gameObj} from "../../assets/gamesData";
 import { Watch } from  'react-loader-spinner';
 
 const DigitPlaybackTest = () => {
@@ -48,7 +48,7 @@ const DigitPlaybackTest = () => {
         style={{ backgroundColor: color }}>
         {status === 'start' && (
           <div className='flex flex-col items-center'>
-          <div className='h-[200px]' dangerouslySetInnerHTML={{ __html: svgData.reactionTimeTest }} />
+          <div className='h-[200px]' dangerouslySetInnerHTML={{ __html: gameObj.DigitPlaybackTest.svg }} />
           <p className=" py-5 text-7xl font-extrabold text-white ">Sequence Memory Test</p>
           <p className="m-1 text-3xl font-medium text-white">Memorize the pattern</p>
           <button onClick={start} className="mt-2 bg-[#e53707] hover:bg-[#E55807] text-white font-bold py-2 px-4 rounded text-2xl">Start</button>
